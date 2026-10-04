@@ -1,8 +1,6 @@
-faastapi[standard]
-uvicorn
+fastapi[standard]
 pydantic
 pandas
 scikit-learn
 joblib
 matplotlib
-pathlib

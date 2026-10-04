@@ -6,6 +6,7 @@ DATA_DIR = ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
 MODEL_DIR = ROOT / "artifacts"
 REPORT_DIR = ROOT / "reports"
+BEST_MODEL_PATH = MODEL_DIR / "best_model.joblib"
 
 TRAIN_PATH = RAW_DATA_DIR / "train.csv"
 TEST_PATH = RAW_DATA_DIR / "test.csv"
