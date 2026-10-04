@@ -1,7 +1,9 @@
 import pandas as pd
 
-from .config import TEST_PATH, TRAIN_PATH
-from .preprocess import build_text_column
+try:
+    from .config import TEST_PATH, TRAIN_PATH
+except ImportError:  
+    from config import TEST_PATH, TRAIN_PATH
 
 
 def load_train():

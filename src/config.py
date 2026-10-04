@@ -4,12 +4,12 @@ ROOT = Path(__file__).resolve().parent.parent
 
 DATA_DIR = ROOT / "data"
 RAW_DATA_DIR = DATA_DIR / "raw"
-MODEL_DIR = ROOT / "models"
+MODEL_DIR = ROOT / "artifacts"
 REPORT_DIR = ROOT / "reports"
 
 TRAIN_PATH = RAW_DATA_DIR / "train.csv"
 TEST_PATH = RAW_DATA_DIR / "test.csv"
-MODEL_PATH = MODEL_DIR / "news_classifier.joblib"
+MODEL_PATH = MODEL_DIR 
 
 RANDOM_STATE = 42
 VAL_SIZE = 0.2
