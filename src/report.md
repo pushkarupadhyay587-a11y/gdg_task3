@@ -36,5 +36,5 @@ Validation and test scores are within one point of each other, so the models are
  
 LinearSVC is the best choice. It ties for the top accuracy (0.92) and trains fast. Logistic Regression is a good alternative if you need probabilities.
  
-> **Note:** an earlier test run gave about 0.25 accuracy because the vectorizer was refitted on the test data. It must be fitted on training data only and then used with `transform` on test data.
+
  
